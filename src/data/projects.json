@@ -155,9 +155,9 @@
     }
   ],
   "inProgress": [
-    { "name": "res-lab", "hint": "market research pipelines" },
-    { "name": "doctortool", "hint": "document extraction" },
-    { "name": "agent-sdlc", "hint": "skills, hooks, verification" },
-    { "name": "pdschema-cli", "hint": "dataframe contracts" }
+    { "name": "market research", "hint": "pipelines, calendars, reproducible knowledge" },
+    { "name": "document extraction", "hint": "PDFs, scans, tables in images" },
+    { "name": "agent workflows", "hint": "skills, hooks, verification loops" },
+    { "name": "dataframe contracts", "hint": "validation beyond ad-hoc asserts" }
   ]
 }

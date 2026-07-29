@@ -33,6 +33,12 @@ const { clusters } = Astro.props;
     </p>
 
     <p class="sub">
+      Earlier depth: <strong>Django</strong> web apps and APIs, <strong>quant research</strong>
+      on equity data and reproducible pipelines (<a href="https://github.com/inquilabee/finvesting">finvesting</a>),
+      and <strong>climate modeling</strong> — building and validating models on gridded geospatial data.
+    </p>
+
+    <p class="sub">
       This is the curated index. Full history lives on
       <a href="https://github.com/inquilabee">github.com/inquilabee</a>.
     </p>
@@ -98,6 +104,11 @@ const { clusters } = Astro.props;
     font-size: 0.95rem;
     margin-top: 0.75rem;
     max-width: 58ch;
+  }
+
+  .sub strong {
+    color: var(--text);
+    font-weight: 500;
   }
 
   .cluster-nav {

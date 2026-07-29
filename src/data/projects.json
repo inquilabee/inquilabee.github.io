@@ -1,0 +1,163 @@
+{
+  "clusters": [
+    {
+      "id": "frameworks",
+      "emoji": "🧱",
+      "title": "Frameworks & quality",
+      "blurb": "Reusable layers over copy-paste — policy, gates, and structural refactors."
+    },
+    {
+      "id": "data",
+      "emoji": "📊",
+      "title": "Data & analysis",
+      "blurb": "Pandas at work — schemas, validation, and pipelines for messy real-world tables."
+    },
+    {
+      "id": "ui",
+      "emoji": "📑",
+      "title": "UI & apps",
+      "blurb": "Small frameworks where session state and layout usually fight you."
+    },
+    {
+      "id": "vision",
+      "emoji": "👁️",
+      "title": "Vision & automation",
+      "blurb": "Tables in images, browser drivers, and automation that survives real sites."
+    },
+    {
+      "id": "scripts",
+      "emoji": "🐍",
+      "title": "Scripts & experiments",
+      "blurb": "Snippets, browser Python, and side projects that stayed useful."
+    }
+  ],
+  "projects": [
+    {
+      "cluster": "frameworks",
+      "name": "shipgate",
+      "tagline": "Portable quality-gate orchestrator — one policy file, metadata-driven catalog, local CI and pre-commit without hand-rolled glue. AST refactor rules included.",
+      "language": "Python",
+      "tags": ["quality-gates", "pypi", "pre-commit", "libcst"],
+      "repo": "https://github.com/inquilabee/shipgate",
+      "demo": "https://pypi.org/project/shipgate/",
+      "docs": "https://inquilabee.github.io/shipgate/",
+      "page": "/projects/shipgate/",
+      "featured": true,
+      "stars": 1
+    },
+    {
+      "cluster": "data",
+      "name": "pdschema",
+      "tagline": "DataFrame schemas with real validation — types, custom checks, decorators for function I/O. The contract Pandas projects need but rarely write twice.",
+      "language": "Python",
+      "tags": ["pandas", "pypi", "validation", "pyarrow"],
+      "repo": "https://github.com/inquilabee/pdschema",
+      "demo": "https://pypi.org/project/pdschema/",
+      "page": "/projects/pdschema/",
+      "featured": true,
+      "stars": 1
+    },
+    {
+      "cluster": "ui",
+      "name": "streamtabs",
+      "tagline": "Streamlit tabs with sane session state and data dependencies — without the usual spaghetti.",
+      "language": "Python",
+      "tags": ["streamlit", "pypi", "ui"],
+      "repo": "https://github.com/inquilabee/streamtabs",
+      "demo": "https://pypi.org/project/streamtabs/",
+      "page": "/projects/streamtabs/",
+      "featured": true,
+      "stars": 1
+    },
+    {
+      "cluster": "vision",
+      "name": "TableCV",
+      "tagline": "Pull tables out of images when the source never wanted to be structured data — OpenCV pipeline on PyPI.",
+      "language": "Python",
+      "tags": ["opencv", "pypi", "tables", "ocr"],
+      "repo": "https://github.com/inquilabee/TableCV",
+      "demo": "https://pypi.org/project/tablecv/",
+      "page": "/projects/TableCV/",
+      "featured": true,
+      "stars": 11
+    },
+    {
+      "cluster": "vision",
+      "name": "LinkedinPy",
+      "tagline": "LinkedIn automation in Python — sessions, flows, and browser reality. Published on PyPI as autolinkedin.",
+      "language": "Python",
+      "tags": ["selenium", "pypi", "automation"],
+      "repo": "https://github.com/inquilabee/LinkedinPy",
+      "demo": "https://pypi.org/project/autolinkedin/",
+      "page": "/projects/LinkedinPy/",
+      "featured": false,
+      "stars": 24
+    },
+    {
+      "cluster": "vision",
+      "name": "BrowserJQuery",
+      "tagline": "jQuery-style DOM queries on a Selenium WebDriver — `$('.btn').click()` instead of element soup.",
+      "language": "Python",
+      "tags": ["selenium", "pypi", "dom"],
+      "repo": "https://github.com/inquilabee/BrowserJQuery",
+      "demo": "https://pypi.org/project/browserjquery/",
+      "page": null,
+      "featured": false,
+      "stars": 2
+    },
+    {
+      "cluster": "vision",
+      "name": "selenium-tabs",
+      "tagline": "Tab management for Selenium WebDriver — open, switch, and close without losing your place.",
+      "language": "Python",
+      "tags": ["selenium", "browser"],
+      "repo": "https://github.com/inquilabee/selenium-tabs",
+      "demo": null,
+      "page": null,
+      "featured": false,
+      "stars": 4
+    },
+    {
+      "cluster": "scripts",
+      "name": "finvesting",
+      "tagline": "Notes and tooling around Indian equity and NSE data — research scratchpad turned repo.",
+      "language": "Python",
+      "tags": ["finance", "nse", "data"],
+      "repo": "https://github.com/inquilabee/finvesting",
+      "demo": null,
+      "page": null,
+      "featured": false,
+      "stars": 1
+    },
+    {
+      "cluster": "scripts",
+      "name": "python-in-browser",
+      "tagline": "Python in the browser via Pyodide — experiments at the edge of \"why not run it in WASM?\"",
+      "language": "Python",
+      "tags": ["pyodide", "browser", "wasm"],
+      "repo": "https://github.com/inquilabee/python-in-browser",
+      "demo": null,
+      "page": null,
+      "featured": false,
+      "stars": 1
+    },
+    {
+      "cluster": "scripts",
+      "name": "python-snippets",
+      "tagline": "Snippets I keep reusing — small enough to grep, useful enough to keep public.",
+      "language": "Python",
+      "tags": ["snippets", "reference"],
+      "repo": "https://github.com/inquilabee/python-snippets",
+      "demo": null,
+      "page": null,
+      "featured": false,
+      "stars": 1
+    }
+  ],
+  "inProgress": [
+    { "name": "res-lab", "hint": "market research pipelines" },
+    { "name": "doctortool", "hint": "document extraction" },
+    { "name": "agent-sdlc", "hint": "skills, hooks, verification" },
+    { "name": "pdschema-cli", "hint": "dataframe contracts" }
+  ]
+}

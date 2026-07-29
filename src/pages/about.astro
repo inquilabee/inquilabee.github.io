@@ -1,0 +1,154 @@
+---
+import Base from "../layouts/Base.astro";
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+
+const title = "About — Vishal Kumar Mishra";
+const description =
+  "Vishal Kumar Mishra (inquilabee) — Python frameworks, Pandas data analysis, quality gates, and installable libraries on PyPI.";
+---
+
+<Base title={title} description={description}>
+  <Nav active="about" />
+
+  <main class="container about">
+    <header class="about-hero rise">
+      <p class="prompt mono" aria-hidden="true">
+        <span class="user">inquilabee</span><span class="at">@</span><span class="host">github</span><span class="path">:~$</span>
+        cat about.md
+      </p>
+      <h1>About</h1>
+      <p class="lede">
+        I'm Vishal — Python by default, Pandas most days at work, frameworks when the
+        same glue shows up twice.
+      </p>
+    </header>
+
+    <section class="block rise" style="animation-delay: 0.05s">
+      <div class="section-header">
+        <span class="hash" aria-hidden="true">##</span>
+        <h2><span aria-hidden="true">📊</span> Day job &amp; data</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <p>
+        Most weekdays I'm in data analysis mode: Pandas pipelines, validation, turning
+        awkward exports into something you can trust. That's where
+        <a href="https://github.com/inquilabee/pdschema">pdschema</a> came from — schema
+        contracts for DataFrames that teams actually want to enforce, not just document
+        once in a wiki.
+      </p>
+    </section>
+
+    <section class="block rise" style="animation-delay: 0.1s">
+      <div class="section-header">
+        <span class="hash" aria-hidden="true">##</span>
+        <h2><span aria-hidden="true">🧱</span> Frameworks over boilerplate</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <p>
+        I'm less interested in one-off scripts that rot in a folder, and more in reusable
+        layers — policy-driven tooling, UI patterns that don't fight session state, CLIs
+        agents can run and verify.
+        <a href="https://github.com/inquilabee/shipgate">ShipGate</a> is the flagship:
+        one policy file, a metadata-driven tool catalog, local CI and pre-commit without
+        hand-rolled glue, plus AST refactor rules when lint isn't enough.
+      </p>
+      <p>
+        <a href="https://github.com/inquilabee/streamtabs">streamtabs</a> is the same
+        instinct for Streamlit — tabs and session state without spaghetti.
+      </p>
+    </section>
+
+    <section class="block rise" style="animation-delay: 0.15s">
+      <div class="section-header">
+        <span class="hash" aria-hidden="true">##</span>
+        <h2><span aria-hidden="true">🔬</span> Also building</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <p>
+        Market-research experimentation, document workflows, and agent-friendly SDLC
+        tooling — mostly private repos, but the themes show up in public packages. You'll
+        see names reserved in the <a href="/#scripts">In progress</a> strip before code
+        ships.
+      </p>
+    </section>
+
+    <section class="block rise" style="animation-delay: 0.2s">
+      <div class="section-header">
+        <span class="hash" aria-hidden="true">##</span>
+        <h2><span aria-hidden="true">📡</span> Get in touch</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <p class="contact">
+        <a href="mailto:vishal.k.mishra2@gmail.com">vishal.k.mishra2@gmail.com</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="https://github.com/inquilabee">github.com/inquilabee</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="https://pypi.org/user/inquilabee/">PyPI</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/">back to projects</a>
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</Base>
+
+<style>
+  .about {
+    padding-top: 3.5rem;
+    max-width: 760px;
+  }
+
+  .about-hero {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1rem;
+  }
+
+  .prompt {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .prompt .user { color: var(--accent); }
+  .prompt .at { color: var(--text-faint); }
+  .prompt .host { color: var(--text); }
+  .prompt .path { color: var(--text-faint); margin-right: 0.6em; }
+
+  h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.75rem;
+  }
+
+  .lede {
+    color: var(--text);
+    font-size: 1.1rem;
+    max-width: 60ch;
+  }
+
+  .block {
+    margin-top: 1rem;
+  }
+
+  .block p {
+    color: var(--text-dim);
+    font-size: 0.97rem;
+    line-height: 1.7;
+    max-width: 68ch;
+    margin-bottom: 0.85rem;
+  }
+
+  .contact {
+    font-family: var(--mono);
+    font-size: 0.9rem;
+  }
+
+  .contact .sep {
+    color: var(--text-faint);
+    margin: 0 0.5rem;
+  }
+</style>

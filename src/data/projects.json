@@ -84,13 +84,13 @@
     {
       "cluster": "vision",
       "name": "LinkedinPy",
-      "tagline": "LinkedIn automation in Python — sessions, flows, and browser reality. Published on PyPI as autolinkedin.",
+      "tagline": "LinkedIn automation in Python — login sessions, job flows, and browser automation that survives real sites. On PyPI as autolinkedin.",
       "language": "Python",
       "tags": ["selenium", "pypi", "automation"],
       "repo": "https://github.com/inquilabee/LinkedinPy",
       "demo": "https://pypi.org/project/autolinkedin/",
       "page": "/projects/LinkedinPy/",
-      "featured": false,
+      "featured": true,
       "stars": 24
     },
     {

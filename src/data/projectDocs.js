@@ -31,7 +31,7 @@ export const projectDocs = {
 <p>NSE URLs and session quirks change; people still need a boring local archive and a few queries. One package, official sources only — no Kaggle ingest path.</p>
 
 <h2><span class="hash">##</span> Try it</h2>
-<p>Docs: <a href="https://inquilabee.github.io/powernse/">inquilabee.github.io/powernse</a> · <code>pip install powernse</code> (or install from GitHub until the first PyPI release).</p>
+<p>Docs: <a href="https://inquilabee.github.io/powernse/">inquilabee.github.io/powernse</a> · <code>pip install powernse</code></p>
 `,
 
   streamtabs: `

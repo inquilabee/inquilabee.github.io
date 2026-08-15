@@ -58,6 +58,19 @@
       "stars": 1
     },
     {
+      "cluster": "data",
+      "name": "powernse",
+      "tagline": "Download and use official NSE India equity archives — CLI and a small Python API. Tracked nse-data on GitHub; fetch-bundle or download from NSE.",
+      "language": "Python",
+      "tags": ["finance", "nse", "pypi", "market-data", "cli"],
+      "repo": "https://github.com/inquilabee/powernse",
+      "demo": "https://pypi.org/project/powernse/",
+      "docs": "https://inquilabee.github.io/powernse/",
+      "page": "/projects/powernse/",
+      "featured": true,
+      "stars": 1
+    },
+    {
       "cluster": "ui",
       "name": "streamtabs",
       "tagline": "Streamlit tabs with sane session state and data dependencies — without the usual spaghetti.",

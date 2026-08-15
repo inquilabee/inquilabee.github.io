@@ -23,6 +23,17 @@ export const projectDocs = {
 <p><code>pip install pdschema</code></p>
 `,
 
+  powernse: `
+<h2><span class="hash">##</span> What it is</h2>
+<p><strong>PowerNSE</strong> downloads official NSE India end-of-day archives (bhavcopy, F&amp;O, indexes, deals, corporate actions) and loads them from a CLI or a small Python API. The package stays lean on PyPI; the tracked <code>nse-data/</code> tree lives on GitHub and clients pull it with <code>powernse fetch-bundle</code>.</p>
+
+<h2><span class="hash">##</span> Why I built it</h2>
+<p>NSE URLs and session quirks change; people still need a boring local archive and a few queries. One package, official sources only — no Kaggle ingest path.</p>
+
+<h2><span class="hash">##</span> Try it</h2>
+<p>Docs: <a href="https://inquilabee.github.io/powernse/">inquilabee.github.io/powernse</a> · <code>pip install powernse</code> (or install from GitHub until the first PyPI release).</p>
+`,
+
   streamtabs: `
 <h2><span class="hash">##</span> What it is</h2>
 <p><strong>streamtabs</strong> is a small framework for Streamlit multi-tab apps — session state and data dependencies without the usual spaghetti.</p>
